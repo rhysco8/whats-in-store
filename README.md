@@ -1,3 +1,7 @@
+# What's In Store - WIP
+
+Stock taking app for retail showrooms. What's In Store allows users to create a list of in-store items or check off items against an existing stocktake.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
