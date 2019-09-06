@@ -23,7 +23,7 @@ This app is designed to help with some of that process by rendering a table of p
 
 ```sh
 $ cd path/to/project/folder
-$ git clone
+$ git clone git@github.com:rhysco8/whats-in-store.git
 $ cd whats-in-store
 ```
 
