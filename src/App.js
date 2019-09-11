@@ -1,5 +1,5 @@
 import React from 'react';
-import Table from './table.js';
+import Table from './Table.js';
 import './App.css';
 
 function App() {
