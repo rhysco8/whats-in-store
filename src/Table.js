@@ -30,7 +30,7 @@ class Table extends Component {
     return (
       <div>
         <h1>What's In Store</h1>
-        <table id='products' class="table table-hover">
+        <table id='products' class="table table-hover table-striped">
           <thead>
             <th>#</th>
             <th>Product</th>
