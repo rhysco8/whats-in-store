@@ -26,16 +26,20 @@ class Table extends Component {
     });
   }
 
+  renderTableHeader() {
+    let header = Object.keys(this.state.products[0])
+    return header.map((key, index) => {
+      return <th key={index}>{key.toUpperCase()}</th>
+    });
+  }
+
   render() {
     return (
       <div>
         <h1>What's In Store</h1>
         <table id='products' class="table table-hover table-striped">
           <thead>
-            <th>#</th>
-            <th>Product</th>
-            <th>SKU</th>
-            <th>Quantity</th>
+            {this.renderTableHeader()}
           </thead>
           <tbody>
             {this.renderTableData()}
