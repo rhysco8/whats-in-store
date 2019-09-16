@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Table from './Table'; // TODO: Remove this line
 import { Products } from './Products';
 import './App.css';
 
