@@ -5,7 +5,7 @@ import './App.css';
 
 class App extends Component {
   products = () => {
-    let productList = [
+    const productList = [
       { name: 'Snowdrop 3 seat sofa in Charcoal brushed linen cotton', sku: 'FSSNO130BLCCHA', quantity: 1 },
       { name: 'Isla armchair in Ash soft wool', sku: 'FSISL110STWASH', quantity: 1 },
       { name: 'Stella medium corner sofa in Olive cotton matt velvet', sku: 'FMSTE320CMVOLI', quantity: 1 }
