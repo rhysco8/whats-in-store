@@ -8,13 +8,19 @@ This app is designed to help with some of that process by rendering a table of p
 
 ## Features
 
+#### Current version
+
+App runs in development mode and displays 3 hardcoded products.
+
+### Planned features
+
 #### Importing an existing stock list
 
-* Import excel file (or csv?)
+* Import excel file (or csv)
 * Display SKU, description, quantity expected
 * Mark off items as they’re found using tally function
 	* `+` and `-` function
-* Export completed stocktake
+* Export completed stocktake as excel file (or csv)
 * Search SKUs/descriptions
 
 ## Setup
