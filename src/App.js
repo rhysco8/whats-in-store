@@ -4,7 +4,10 @@ import './App.css';
 
 function App() {
   return (
-    <Table />
+    <div>
+      <h1>What's In Store</h1>
+      <Table />
+    </div>
   );
 }
 
