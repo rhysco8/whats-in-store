@@ -10,9 +10,9 @@ This app is designed to help with some of that process by rendering a table of p
 
 #### Current version
 
-App runs in development mode and displays 3 hardcoded products. You can export the product list as an xslx file.
+App runs in development mode and displays 3 hardcoded products. You can export the product list as an `.xlsx` file.
 
-![What's In Store current version](images/whats_in_store_screenshot_v0_2_0.png)
+![What's In Store current version](images/whats-in-store_v0_2_0.gif)
 
 
 ### Planned features
@@ -55,7 +55,7 @@ Run the app in development mode, where it can be viewed in the browser at [http:
 ## Future features
 
 * Add the following columns:
-	* Upload photo of item
+	* Photo of item
 	* Area of store
 	* Comments
 * Sort alphabetically/reverse alphabetically or by quantity
