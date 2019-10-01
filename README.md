@@ -10,18 +10,21 @@ This app is designed to help with some of that process by rendering a table of p
 
 #### Current version
 
-App runs in development mode and displays 3 hardcoded products.
+App runs in development mode and displays 3 hardcoded products. You can export the product list as an xslx file.
+
+![What's In Store current version](images/whats_in_store_screenshot_v0_2_0.png)
+
 
 ### Planned features
 
 #### Importing an existing stock list
 
-* Import excel file (or csv)
-* Display SKU, description, quantity expected
-* Mark off items as they’re found using tally function
-	* `+` and `-` function
-* Export completed stocktake as excel file (or csv)
-* Search SKUs/descriptions
+- [ ] Import excel file (or csv)
+- [x] Display SKU, description, quantity expected
+- [ ] Mark off items as they’re found using tally function
+	- `+` and `-` function
+- [x] Export completed stocktake as excel file
+- [ ] Search SKUs/descriptions
 
 ## Setup
 
