@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Products } from './Products';
+import { Products } from '../Products';
 
 xit('renders table headers', () => { // TODO: need to mock product list
   const wrapper = shallow(<Products />);
