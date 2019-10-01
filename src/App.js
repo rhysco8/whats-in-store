@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Products } from './Products';
 import './App.css';
+import { ExportCSV } from './ExportCSV';
 
 class App extends Component {
   products = () => {
@@ -12,10 +13,23 @@ class App extends Component {
     return productList
   }
 
+  state = {
+    products: this.products(),
+    fileName: 'Products'
+  }
+
   render() {
     return (
       <div className="App">
         <h1>What's In Store</h1>
+        <div className="row">
+          <div className="col-md-8">
+            <h2>Products</h2>
+          </div>
+          <div className="col-md-4 center">
+            <ExportCSV csvData={this.state.products} fileName={this.state.fileName} />
+          </div>
+        </div>
         <Products products={this.products()} />
       </div>
     );

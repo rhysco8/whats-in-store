@@ -28,7 +28,7 @@ export const Products = ({products}) => {
 
   return (
     <div>
-      <table id="products" class="table table-hover table-striped">
+      <table id="products" className="table table-hover table-striped">
         <thead>
           {productTableHeader()}
         </thead>
