@@ -6,10 +6,10 @@ export const Products = ({products}) => {
       const { name, sku, quantity } = product
       return (
         <tr key={index}>
-          <td>{index + 1}</td>
+          <td>{(index + 1).toString()}</td>
           <td>{name}</td>
           <td>{sku}</td>
-          <td>{quantity}</td>
+          <td>{quantity.toString()}</td>
         </tr>
       )
     });
