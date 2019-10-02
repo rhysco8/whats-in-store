@@ -9,9 +9,9 @@ export const ExportCSV = ({csvData, fileName}) => {
   const fileExtension = '.xlsx';
 
   const exportToCSV = (csvData, fileName) => {
-    const ws = XLSX.utils.json_to_sheet(csvData);
-    const wb = { Sheets: {'data': ws }, SheetNames: ['data'] };
-    const excelBuffer = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
+    const workSheet = XLSX.utils.json_to_sheet(csvData);
+    const workBook = { Sheets: {'data': workSheet }, SheetNames: ['data'] };
+    const excelBuffer = XLSX.write(workBook, { bookType: 'xlsx', type: 'array' });
     const data = new Blob([excelBuffer], {type: fileType});
     FileSaver.saveAs(data, fileName + fileExtension);
   }
