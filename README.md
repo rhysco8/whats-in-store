@@ -4,7 +4,7 @@ Stock taking app for retail showrooms. What's In Store allows users to create a 
 
 This project was inspired by my time working at a furniture retailer, doing stocktakes using a spreadsheet of all the products expected to be for the showroom. I would print the list, walk round the showroom ticking things off as I went and adding in items which weren't on the list. Then I'd enter the tally for each item into the spreadsheet before sending that off.
 
-This app is designed to help with some of that process by rendering a table of products that you can then tally off.
+This app is designed to help with some of that process by rendering a table of products that you can add to and tally.
 
 ## Features
 
@@ -19,11 +19,10 @@ App runs in development mode and displays 3 hardcoded products. You can export t
 
 #### Importing an existing stock list
 
-- [ ] Import excel file (or csv)
 - [x] Display SKU, description, quantity expected
-- [ ] Mark off items as they’re found using tally function
-	- `+` and `-` function
 - [x] Export completed stocktake as excel file
+- [ ] Add items to stocktake
+- [ ] Mark off items as they’re found using tally function
 - [ ] Search SKUs/descriptions
 
 ## Setup
@@ -54,6 +53,7 @@ Run the app in development mode, where it can be viewed in the browser at [http:
 
 ## Future features
 
+* Import an existing stocktake (from excel or csv)
 * Add the following columns:
 	* Photo of item
 	* Area of store
